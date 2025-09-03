@@ -13,7 +13,6 @@ def palindrome(word: str) -> bool:
     cleaned = "".join(ch.lower() for ch in word if ch.isalnum())
     return cleaned == cleaned[::-1]
 
-git add apputil.py
 def parentheses(sequence: str) -> bool:
     """
     Return True if all parentheses in the input string are balanced.
